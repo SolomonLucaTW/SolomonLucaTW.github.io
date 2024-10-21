@@ -47,9 +47,10 @@ a {
     text-align: center;
 }
 
-.toptitle
+#toptitle
 {
-    font-size: 10vh;
+    font-size: 9.44vw;
+    font-weight: 600;
 }
 
 .content
