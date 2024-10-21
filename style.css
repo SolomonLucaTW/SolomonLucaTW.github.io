@@ -1,0 +1,109 @@
+body
+{
+    font-family: "Rajdhani", "Noto Sans TC", sans-serif;
+    font-weight: 500;
+    font-size: 3vh;
+    background-color: #222;
+    color: #EEE;
+}
+
+div
+{
+    margin: 3vw;
+}
+
+a {
+    text-decoration: none;
+    color: #CCC;
+}
+
+    a:link {
+        /* text-decoration: none; */
+        background-color: #444;
+        border-radius: 0.5vw;
+        padding-top: 0.2vw;
+        padding-bottom: 0.2vw;
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+    }
+
+    a:visited {
+        /* text-decoration: none; */
+    }
+
+    a:hover {
+        /* text-decoration: none; */
+        background-color: #222;
+    }
+
+    a:active {
+        /* text-decoration: none; */
+    }
+
+.page
+{
+    margin: auto;
+    width: 60vw;
+    text-align: center;
+}
+
+.toptitle
+{
+    font-size: 10vh;
+}
+
+.content
+{
+    /* border: 3px solid #555; */
+    background-color: #333;
+    padding: 3vw;
+    border-radius: 3vw;
+    line-height: 5vh;
+}
+
+.rajdhani-light {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.rajdhani-regular {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rajdhani-medium {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.rajdhani-semibold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.rajdhani-bold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900 */
+
+/* .noto-sans-tc {
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.m-plus-1-code {
+    font-family: "M PLUS 1 Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+} */
