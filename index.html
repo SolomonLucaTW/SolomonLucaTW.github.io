@@ -13,8 +13,8 @@
     <div class="page">
         <div id="toptitle">Solomon Luca</div>
         <div class="content">
-            Instagram: <a href="instagram.com/SolomonLucaTW">@SolomonLucaTW</a> <br>
-            Facebook: <a href="https://www.facebook.com/profile.php?id=61557076627633">Solomon Luca</a>
+            Instagram: <a href="instagram.com/SolomonLucaTW" id="IGa">@SolomonLucaTW</a> <br>
+            Facebook: <a href="https://www.facebook.com/profile.php?id=61557076627633" id="FBa">Solomon Luca</a>
         </div>
     </div>
 
@@ -24,6 +24,15 @@
             // document.body.style.fontSize = "5vh";
             document.getElementById("toptitle").style.fontSize = "15vw";
             document.getElementById("toptitle").innerHTML="--+--<br>Solomon Luca<br>--+--";
+        }
+
+        let url = new URLSearchParams(window.location.search);
+        if((url.has('thisIs') && url.get('thisIs') == "instagramAndMore"))
+            document.getElementById("FBa").style.border = "0.15vw #BBB solid";
+        else
+        {
+            if((url.has('thisIs') && url.get('thisIs') == "facebookAndMore"))
+                document.getElementById("IGa").style.border = "0.15vw #BBB solid";
         }
     </script>
 </body>
