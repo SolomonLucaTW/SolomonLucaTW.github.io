@@ -24,15 +24,15 @@
     <script>
         if(window.innerWidth > window.innerHeight)
         {
-            for (let sel = 0; sel < document.getElementsByTagName("img").length; sel++) {
+            for (let sel = 1; sel < document.getElementsByTagName("img").length; sel++) {
                 document.getElementsByTagName("img")[sel].style.width = "29vw";
-            }
+            } //landscape -> 2 imgs 1 ln
         }
         if(window.innerWidth < window.innerHeight)
         {
             for (let sel = 0; sel < document.getElementsByTagName("img").length; sel++) {
                 document.getElementsByTagName("img")[sel].style.width = "95vw";
-            }
+            } //portrait -> 1 img 1 ln
             document.getElementsByTagName("a")[0].style.fontSize = "8vw";
         }
     </script>
