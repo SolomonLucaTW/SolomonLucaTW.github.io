@@ -6,8 +6,8 @@
     <title>Solomon Luca's Links</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+TC:wght@200..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+TC:wght@200..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="page">
@@ -16,6 +16,7 @@
         <div class="content">
             Instagram: <a href="https://www.instagram.com/SolomonLucaTW" id="IGa">@SolomonLucaTW</a> <br>
             Facebook: <a href="https://www.facebook.com/profile.php?id=61557076627633" id="FBa">Solomon Luca</a>
+            Dos and Don'ts <span class="chinese">(場次守則)</span>: <a href="dosndonts.html">Here</a>
         </div>
 
         <div class="content serif">
@@ -42,7 +43,6 @@
                 Tech wear / Dark wear / Something like that <br>
                 <span class="chinese">Tech wear / Dark wear / 其他類似風格</span> <br>
             </p>
-
         </div>
 
         <div class="content facebook">
@@ -63,16 +63,8 @@
         </div>
     </div>
 
+    <script src="js.js"></script>
     <script>
-        if(window.innerWidth < window.innerHeight)
-        {
-            // document.body.style.fontSize = "5vh";
-            document.querySelector("#page").style.width = "95vw"; //content width
-            document.body.style.fontSize = "2.7vh"; //basic text size
-            document.getElementById("toptitle").style.fontSize = "15vw";
-            document.getElementById("toptitle").innerHTML="--+--<br>Solomon Luca<br>--+--";
-        }
-
         let url = new URLSearchParams(window.location.search);
         if((url.has('thisIs') && url.get('thisIs') == "instagramAndMore"))
             document.getElementById("IGa").style.border = "0.15vw #BBB solid"; //Highlight IG
