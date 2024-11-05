@@ -31,6 +31,12 @@ a {
         background-color: #222;
     }
 
+img
+{
+    width: 60vw;
+    height: auto;
+}
+
 #page
 {
     margin: auto;
@@ -67,5 +73,5 @@ a {
 
 .facebook
 {
-    background-color: #002f69;
+    background-color: #001c3f;
 }
