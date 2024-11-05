@@ -14,7 +14,8 @@
         <img src="images/0.svg" alt="" srcset="">
         <img src="images/1.svg" alt="" srcset="">
         <img src="images/2.svg" alt="" srcset="">
-    <a href="index.html">&lt; Back</a>
+        <a href="index.html">&lt; Back</a> <br>
+        Solomon Luca × Arnold Lucario 2024
     </div>
 
     <script src="js.js"></script>
@@ -28,9 +29,11 @@
         }
         if(window.innerWidth < window.innerHeight)
         {
-            document.getElementsByTagName("img")[sel].style.width = "95vw";
-            document.getElementsByTagName("img")[sel].style.height = "95vw";
-            document.getElementsByTagName("a")[7].style.fontSize = "8vw";
+            for (let sel = 1; sel < document.getElementsByTagName("img").length; sel++) {
+                document.getElementsByTagName("img")[sel].style.width = "95vw";
+                document.getElementsByTagName("img")[sel].style.height = "95vw";
+            }
+            document.getElementsByTagName("a")[0].style.fontSize = "8vw";
         }
     </script>
 </body>
