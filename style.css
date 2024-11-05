@@ -26,19 +26,12 @@ a {
         padding-left: 0.5vw;
         padding-right: 0.5vw;
     }
-
-    a:visited {
-        /* text-decoration: none; */
-    }
-
+    a:visited {/* text-decoration: none; */}
     a:hover {
         /* text-decoration: none; */
         background-color: #222;
     }
-
-    a:active {
-        /* text-decoration: none; */
-    }
+    a:active {/* text-decoration: none; */}
 
 .page
 {
@@ -60,4 +53,21 @@ a {
     padding: 3vw;
     border-radius: 3vw;
     line-height: 5vh;
+}
+
+.serif
+{
+    font-family: "Playfair Display", "Noto Serif TC", serif;
+}
+
+.chinese 
+{
+    margin: 0vw;
+    font-family: "M PLUS 1 Code", "Noto Sans TC", sans-serif;
+    font-size: 2vh;
+}
+
+.facebook
+{
+    background-color: darkblue;
 }
