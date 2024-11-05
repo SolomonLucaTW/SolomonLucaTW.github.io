@@ -11,13 +11,13 @@
 </head>
 <body>
     <div id="page">
-        <a href="index.html"><div style="width: 60vw; margin: 0px;">&lt; Back</div></a> <br>
-
         <img src="images/0.svg" alt="" srcset="">
         <img src="images/1.svg" alt="" srcset="">
         <img src="images/2.svg" alt="" srcset="">
-    </div>
     <a href="index.html">&lt; Back</a>
+    </div>
+
+    <script src="js.js"></script>
     <script>
         if(window.innerWidth > window.innerHeight)
         {
@@ -28,7 +28,9 @@
         }
         if(window.innerWidth < window.innerHeight)
         {
-            document.getElementsByTagName("a")[1].style.fontSize = "4vw";
+            document.getElementsByTagName("img")[sel].style.width = "95vw";
+            document.getElementsByTagName("img")[sel].style.height = "95vw";
+            document.getElementsByTagName("a")[7].style.fontSize = "8vw";
         }
     </script>
 </body>
