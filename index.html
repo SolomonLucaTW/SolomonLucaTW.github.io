@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+TC:wght@200..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="page">
+    <div id="page">
         <div id="toptitle">Solomon Luca</div>
 
         <div class="content">
@@ -65,17 +65,19 @@
         if(window.innerWidth < window.innerHeight)
         {
             // document.body.style.fontSize = "5vh";
+            document.getElementById("page").style.width = "95vw"; //content width
+            document.getElementsByTagName("body").style.fontSize = "2.7vh"; //basic text size
             document.getElementById("toptitle").style.fontSize = "15vw";
             document.getElementById("toptitle").innerHTML="--+--<br>Solomon Luca<br>--+--";
         }
 
         let url = new URLSearchParams(window.location.search);
         if((url.has('thisIs') && url.get('thisIs') == "instagramAndMore"))
-            document.getElementById("IGa").style.border = "0.15vw #BBB solid";
+            document.getElementById("IGa").style.border = "0.15vw #BBB solid"; //Highlight IG
         else
         {
             if((url.has('thisIs') && url.get('thisIs') == "facebookAndMore"))
-                document.getElementById("FBa").style.border = "0.15vw #BBB solid";
+                document.getElementById("FBa").style.border = "0.15vw #BBB solid"; //Highlight FB
         }
     </script>
 </body>
