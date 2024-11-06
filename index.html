@@ -60,7 +60,7 @@
             <span class="chinese">我會刪除所有交友邀請，除非我們互相認識</span> <br>
         </div>
         <br>
-        Solomon Luca × Arnold Lucario 2024
+        <span class="copyright">Solomon Luca × Arnold Lucario 2024</span>
         <br>
     </div>
 
@@ -74,6 +74,8 @@
             if((url.has('thisIs') && url.get('thisIs') == "facebookAndMore"))
                 document.getElementById("FBa").style.border = "0.15vw #BBB solid"; //Highlight FB
         }
+        if(window.innerWidth < window.innerHeight)
+            document.getElementById("toptitle").innerHTML="--+--<br>Solomon Luca<br>--+--";
     </script>
 </body>
 </html>
