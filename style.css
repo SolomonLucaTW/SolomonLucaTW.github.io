@@ -67,6 +67,7 @@ img
 .chinese 
 {
     margin: 0vw;
+    margin-top: -1.5vw;
     font-family: "M PLUS 1 Code", "Noto Sans TC", sans-serif;
     font-size: 2vh;
 }
