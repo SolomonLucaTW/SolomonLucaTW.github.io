@@ -2,7 +2,7 @@ body
 {
     font-family: "Rajdhani", "Noto Sans TC", sans-serif;
     font-weight: 500;
-    font-size: 3vh;
+    font-size: 3.3vh;
     background-color: #222;
     color: #EEE;
 }
@@ -21,8 +21,8 @@ a {
         /* text-decoration: none; */
         background-color: #444;
         border-radius: 0.5vw;
-        padding-top: 0.2vw;
-        padding-bottom: 0.2vw;
+        padding-top: 0.2vh;
+        padding-bottom: 0.2vh;
         padding-left: 0.5vw;
         padding-right: 0.5vw;
     }
@@ -44,18 +44,25 @@ img
     text-align: center;
 }
 
+.center
+{
+    text-align: center;
+    margin: auto;
+}
+
 #toptitle
 {
     font-size: 9.44vw;
     font-weight: 600;
+    margin-top: 3vw;
 }
 
 .content
 {
     /* border: 3px solid #555; */
     background-color: #333;
-    padding: 3vw;
-    border-radius: 3vw;
+    padding: 3vh;
+    border-radius: 3vh;
     line-height: 5vh;
 }
 
@@ -64,12 +71,13 @@ img
     font-family: "Playfair Display", "Noto Serif TC", serif;
 }
 
-.chinese 
+.translate 
 {
     margin: 0vw;
-    margin-top: -1.5vw;
+    /* margin-top: -10.5vw; */
     font-family: "M PLUS 1 Code", "Noto Sans TC", sans-serif;
     font-size: 2vh;
+    line-height: 2vh;
 }
 
 .facebook
@@ -77,7 +85,7 @@ img
     background-color: #001c3f;
 }
 
-.copyright 
+#copyright 
 {
-    font-size: 1vh;
+    font-size: 1vw;
 }
